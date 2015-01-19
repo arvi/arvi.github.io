@@ -1,0 +1,73 @@
+# Site settings
+title: Penned Encounters
+header-img: "img/home-bg.jpg"
+header-color: "#008282"
+email: arvi.acuzar@gmail.com
+description: "Penned Encounters - A blog about code and beyond by Arvi"
+baseurl: ""
+categories: baking coding cooking love music thoughts travel
+timezone: Asia/Hong_Kong
+url: "http://arvi.github.io"
+twitter_username: thenfigured
+github_username:  arvi
+facebook_username:
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 7
+paginate_path: ":num"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Prose.io
+prose:
+  siteurl: "http://arvi.github.io"
+  media: "img"
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "draft"
+        field:
+          label: "Draft"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          label: "Layout"
+          element: "text"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "Title"
+      - name: "subtitle"
+        field:
+          label: "Subtitle"
+          element: "text"
+          value: "Subtitle"
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          value: "2015-01-01 12:00:00"
+      - name: "author"
+        field:
+          label: "Author"
+          element: "text"
+          value: "Arvi A."
+      - name: "header-img"
+        field:
+          label: "Header Image"
+          element: "text"
+          value: ""
+      - name: "category"
+        field:
+          label: "Category (baking, coding, cooking, love, music, thoughts, travel)"
+          element: "text"
+          value: ""
